@@ -1,0 +1,60 @@
+{
+	"GeneralInfo": {
+		"RcpName":"",
+		"RcpVersion":"",
+		"Description":"",
+		"Creator":"",
+		"CreatedTime":"",
+		"Modifier":"",
+		"Modifier":"",
+		"ModifiedTime":"",
+		"Releaser":"",
+		"ReleasedTime":"",
+		"isReleased":false,
+		"CRC":0.000000
+	},
+	"MaterialInfo": {
+		"Substrates":[{
+		"size": [],
+		"Thickness":0.000000,
+		"Orientation":12.000000
+		}]
+	},
+	"FocAndLev":{
+		"FocAndLevMode":{},
+		"TopFLPoints":[[]],
+		"DownFLPoints":[[]],
+		"FocOffset":[],
+		"BondIFOffset":[]
+	},
+	"Alignment":{
+		"AlignmentMode":{
+			"isCrsAl":false,
+			"isFiducialChk":false,
+			"isOperatorCfm":false,
+			"isAllowManualAl":false
+		},
+		"CrsAlPoint": {
+			"pos":[[]],
+			"markID":[],
+			"ALThreshold":[]
+		},
+		"FineALPoint": {
+			"pos":[[]],
+			"markID":[],
+			"ALThreshold":[],
+			"minValidMarks":0.0000000
+		},
+		"ALOffset": [],
+		"GapFidChk": 0.0000000
+	},
+	"Bonding":{
+		"isFormingGasEnv":false,
+		"preBondTemp":0.0000000,
+		"cmd":[{
+			"cmd":"",
+			"parameters":[""]
+		}]
+		
+	}
+}

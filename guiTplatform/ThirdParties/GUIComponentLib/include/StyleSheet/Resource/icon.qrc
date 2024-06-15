@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>Arrow_Down.svg</file>
+        <file>Arrow_Up.svg</file>
+    </qresource>
+    <qresource prefix="/font">
+        <file>icomoon.ttf</file>
+    </qresource>
+</RCC>

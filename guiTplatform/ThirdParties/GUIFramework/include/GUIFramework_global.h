@@ -1,0 +1,12 @@
+#ifndef GUIFRAMEWORK_GLOBAL_H
+#define GUIFRAMEWORK_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(GUIFRAMEWORK_LIBRARY)
+#  define GUIFRAMEWORK_EXPORT Q_DECL_EXPORT
+#else
+#  define GUIFRAMEWORK_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // GUIFRAMEWORK_GLOBAL_H
